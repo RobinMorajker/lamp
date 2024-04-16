@@ -36,7 +36,7 @@ git clone https://github.com/RobinMorajker/lamp.git
 cd lamp
 cp sample.env .env
 docker compose up -d
-cd -
+cd $HOME
 ```
 
 Your LAMP stack is now ready!! You can access it via `http://localhost`.
