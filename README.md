@@ -33,9 +33,10 @@ As of now, we have several different PHP versions. Use appropriate php version a
 ```shell
 mkdir -p ./docker-scripts/lamp && cd ./docker-scripts
 git clone https://github.com/RobinMorajker/lamp.git
-cd /lamp
+cd lamp
 cp sample.env .env
-docker-compose up -d
+docker compose up -d
+cd -
 ```
 
 Your LAMP stack is now ready!! You can access it via `http://localhost`.
